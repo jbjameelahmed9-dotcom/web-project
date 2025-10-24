@@ -1,0 +1,99 @@
+header{
+    background-color: cadetblue;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+nav img{
+    height: auto;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #333;
+    margin-left: 25px;
+}
+#hero{
+    background-color: #f8f9fa;
+    padding: 60px 100px;
+}
+.hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.hero-content img{
+    width: 350px;
+    max-width: 100%;
+    border-radius: 12px;
+}
+.hero-text{
+    max-width: 50%;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.hero-text h1{
+    font-size: 2.3rem;
+    color: #222;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+.hero-text p{
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+} 
+.hero-text button{
+    background-color:khaki
+    color:white;
+    cursor: pointer;
+}
+#services{
+    background-color: #fff;
+    padding: 80px 100px;
+    display: grid;
+    gap: 40px;
+    text-align: center;
+}
+#services div{
+    background-color: #f8f9fa;
+    padding: 35px 25px;
+    border-radius: 16px;
+}
+#services h2{
+    font-size: 1.6rem;
+    color: #222;
+    margin-bottom: 15px;
+}
+#services p{
+    color:#333;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+#services button{
+    background-color: #111;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
